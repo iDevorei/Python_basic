@@ -317,3 +317,17 @@ tst = 123
 # Найдите количество цифр этого числа.
 
 print(len(str(tst)))
+
+# Дано число:
+
+tst = 456
+# Найдите сумму цифр этого числа.
+
+test = str(tst)
+one = test[0]
+two = test[1]
+three = test[2]
+
+print(int(one) + int(two) + int(three))
+
+# !Преобразование в целые числа на Python
