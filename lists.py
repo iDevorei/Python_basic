@@ -286,4 +286,60 @@ lst = ['a', 'b', 'c', 'b', 'd']
 
 print(lst.index('b', 2, -1))
 
-# !Проверка наличия элемента в списке в Python
+# Дан список:
+
+lst = ['a', 'b', 'c', 'd', 'e']
+# Проверьте наличие элемента со значением 'c'.
+
+res = 'c' in lst
+print(res)
+
+lst = [1, 2, 1, 3]
+
+print(lst.count(1))
+print(lst.count(2))
+print(lst.count(42))
+
+lst = [1, 2, 42]
+lst.reverse()
+print(lst)
+
+# Дан список:
+
+lst = [4, 2, 5, 1, 3]
+# Отсортируйте его по возрастанию.
+
+lst.sort()
+print(lst)
+
+# Дан список:
+
+lst = [4, 2, 5, 1, 3]
+# Отсортируйте его по убыванию.
+
+lst.sort(reverse=True)
+print(lst)
+
+# Дан список:
+
+lst = [1, 2, 3, 4, 5]
+# Поменяйте порядок списка на обратный.
+
+# lst.sort(reverse=True)
+# print(lst)
+lst.reverse()
+print(lst)
+
+# Даны списки:
+
+lst1 = ['a', 'b', 'c']
+lst2 = [3, 2, 1]
+# Напишите код, чтобы получить следующий результат:
+
+# [1, 2, 3, 'c', 'b', 'a']
+
+lst1.extend(lst2)
+lst1.reverse()
+print(lst1)
+
+# !Сортировка элементов в копии списка в Python
