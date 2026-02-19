@@ -5,3 +5,4 @@
 - [Corteges](https://github.com/iDevorei/Python_basic/blob/main/corteges.py).
 - [Slices](https://github.com/iDevorei/Python_basic/blob/main/slices.py).
 - [Dictionaries](https://github.com/iDevorei/Python_basic/blob/main/dictionaries.py).
+- [Sets](https://github.com/iDevorei/Python_basic/blob/main/sets.py).
